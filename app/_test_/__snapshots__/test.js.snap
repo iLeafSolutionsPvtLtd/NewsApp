@@ -1,0 +1,66 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "white",
+      "borderRadius": 5,
+      "elevation": 1,
+      "flex": 1,
+      "flexDirection": "row",
+      "height": 333.5,
+      "justifyContent": "center",
+      "margin": 5,
+      "padding": 10,
+      "width": 730,
+    }
+  }
+>
+  <Image
+    source={
+      Object {
+        "uri": null,
+      }
+    }
+    style={
+      Object {
+        "flex": 1,
+        "resizeMode": "cover",
+      }
+    }
+  />
+  <View
+    style={
+      Object {
+        "flex": 2,
+        "marginLeft": 10,
+      }
+    }
+  >
+    <Text
+      numberOfLines={3}
+    >
+      2018-10-04T21:59:05Z
+    </Text>
+    <Text
+      numberOfLines={2}
+      style={
+        Object {
+          "color": "black",
+          "fontSize": 15,
+          "fontWeight": "bold",
+          "marginTop": 10,
+        }
+      }
+    >
+      Business Highlights
+    </Text>
+    <Text
+      numberOfLines={3}
+    >
+      Get breaking national and world news, broadcast video coverage, and exclusive interviews. Find the top news online at ABC news.
+    </Text>
+  </View>
+</View>
+`;
